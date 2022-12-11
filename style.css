@@ -65,7 +65,8 @@ html {
 }
 
 #form-area {
-  margin: 10px 30px;
+  margin: 20px 30px;
+  display: inline-block;
   /* margin: auto; */
   /* padding: 15px; */
   /* width: 420px; */
