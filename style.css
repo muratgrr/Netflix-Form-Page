@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Roboto:wght@300;400;500;700;900&family=Sorts+Mill+Goudy:ital@0;1&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  background: url(./img/background_image.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.span_n {
+  font-size: 1.1em;
+}
+
+.span_f {
+  font-size: 1.1em;
+  color: red;
+}
+
+.span_lıx {
+  color: red;
+}
+
+#title {
+  font-family: "Bowlby One SC", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  /* line-height: 0%; */
+  /* letter-spacing: 5%; */
+  text-align: center;
+  color: white;
+  letter-spacing: 0.05em;
+}
+
+#description {
+  padding: 10px;
+  font-family: "Sorts Mill Goudy", serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 23px;
+  color: white;
+  text-align: center;
+  /* line-height: 0%; */
+  /* margin-top: 30px; */
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.3);
+  /* margin: 2.74% 6.94%; */
+  margin: 1.37% 3.47%;
+  max-width: 1240px;
+  /* height: 1036px; */
+}
+
+.survey-form {
+  background: rgba(0, 0, 0, 0.8);
+  width: 500px;
+  margin: auto;
+  /* height: 897px; */
+}
+
+#form-area {
+  margin: 10px 30px;
+  /* margin: auto; */
+  /* padding: 15px; */
+  /* width: 420px; */
+  /* height: 887px; */
+}
+
+label {
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.box1 input,
+.box2 input,
+.box3 input {
+  width: 440px;
+  padding: 20px;
+  margin: 10px 0;
+  /* margin: 10px 40px; */
+}
+
+.select {
+  width: 440px;
+  padding: 20px;
+  margin: 10px 0;
+  color: grey;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+}
+
+#feedback {
+  width: 440px;
+  padding: 20px;
+  margin: 10px 0;
+  color: grey;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+}
+
+.box6 {
+  margin: 10px 0;
+}
+
+.box5 input,
+.box5 label {
+  vertical-align: middle;
+}
+
+.box6 input,
+.box6 label {
+  vertical-align: middle;
+}
+
+.box8 {
+  margin: 10px auto;
+  text-align: center;
+}
+
+.box8 input {
+  width: 160px;
+  border-radius: 50px;
+  background: red;
+  color: white;
+  border-style: none;
+  padding: 16px;
+}
+
+.box8 input:hover {
+  background: grey;
+  color: black;
+  cursor: pointer;
+}
